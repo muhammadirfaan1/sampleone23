@@ -20,4 +20,8 @@ print(vios.seating_capacity)
 print(vios.maximum_velocity)
 
 blueSG = ElectricCar('4', 5, 150)
+print(blueSG.number_of_wheels)
+print(blueSG.type_of_tank)
+print(blueSG.seating_capacity)
+print(blueSG.maximum_velocity)
 blueSG.drive()
